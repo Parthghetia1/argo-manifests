@@ -259,7 +259,7 @@ spec:
                 - all
             privileged: false
             readOnlyRootFilesystem: true
-          image: gcr.io/google-samples/microservices-demo/frontend:v0.4.2
+          image: gcr.io/argo-gcp-gke/frontend@sha256:1990b941780e55095f92b5e185b1385c346b4fb9858c9b24cd0f1dc429fd65d9
           ports:
           - containerPort: 8080
           readinessProbe:
